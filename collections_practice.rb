@@ -3,7 +3,7 @@ def sort_array_asc(integers)
 end
 
 def sort_array_desc(integers)
-  sorted_integers_desc = integers.sort.reverse!
+  integers.sort.reverse!
 end
 
 def sort_array_char_count(strings)
