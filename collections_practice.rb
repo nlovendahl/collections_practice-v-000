@@ -1,13 +1,13 @@
 def sort_array_asc(integers)
-  sorted_integers = integers.sort
+  integers.sort
 end
 
 def sort_array_desc(integers)
-  sorted_integers_desc = integers.sort.reverse!
+  integers.sort.reverse!
 end
 
 def sort_array_char_count(strings)
-  sorted_strings = strings.sort {|a, b| a.length <=> b.length}
+  strings.sort {|a, b| a.length <=> b.length}
 end
 
 def swap_elements(array)
@@ -16,7 +16,7 @@ def swap_elements(array)
 end
 
 def reverse_array(integers)
-  sorted_integers = integers.reverse
+  integers.reverse
 end
 
 def kesha_maker(array)
